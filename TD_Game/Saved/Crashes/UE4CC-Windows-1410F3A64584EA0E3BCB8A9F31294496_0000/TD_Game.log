@@ -1,0 +1,551 @@
+﻿Log file open, 09/14/17 16:12:54
+LogInit:Display: Running engine for game: TD_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-744439232) SRandInit(-744439232).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 1.881841
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.14-20.12.55:762][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.14-20.12.55:762][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.14-20.12.55:850][  0]LogInit: Computer: DESKTOP-QASU0J3
+[2017.09.14-20.12.55:850][  0]LogInit: User: Topleftstyll
+[2017.09.14-20.12.55:850][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.14-20.12.55:850][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2017.09.14-20.12.55:851][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.14-20.12.55:851][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.14-20.12.55:851][  0]LogMemory: Process Physical Memory: 273.97 MB used, 273.97 MB peak
+[2017.09.14-20.12.55:851][  0]LogMemory: Process Virtual Memory: 261.17 MB used, 261.17 MB peak
+[2017.09.14-20.12.55:851][  0]LogMemory: Physical Memory: 8702.69 MB used,  7544.26 MB free, 16246.95 MB total
+[2017.09.14-20.12.55:851][  0]LogMemory: Virtual Memory: 638.64 MB used,  7544.26 MB free, 134217728.00 MB total
+[2017.09.14-20.12.56:846][  0]LogInit: Using OS detected language (en-US).
+[2017.09.14-20.12.56:846][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.14-20.12.57:041][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.14-20.13.01:246][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.14-20.13.02:385][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.09.14-20.13.02:385][  0]LogD3D11RHI:       8113/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.14-20.13.02:392][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.09.14-20.13.02:392][  0]LogD3D11RHI:       128/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.14-20.13.02:394][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.14-20.13.02:394][  0]LogD3D11RHI:       0/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.14-20.13.02:394][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.14-20.13.02:400][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.14-20.13.02:400][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.14-20.13.02:400][  0]LogWindows: EnumDisplayDevices:
+[2017.09.14-20.13.02:400][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.09.14-20.13.02:400][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.09.14-20.13.02:400][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.09.14-20.13.02:400][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.14-20.13.02:401][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.14-20.13.02:401][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.14-20.13.02:401][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.14-20.13.02:401][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.09.14-20.13.02:401][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.09.14-20.13.02:401][  0]LogD3D11RHI:   Driver Version: 381.89 (internal:22.21.13.8189, unified:381.89)
+[2017.09.14-20.13.02:401][  0]LogD3D11RHI:      Driver Date: 4-19-2017
+[2017.09.14-20.13.02:401][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.14-20.13.03:030][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.14-20.13.03:190][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.14-20.13.03:259][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../GameDev/_Projects/Unreal/TD_Game/Intermediate/Shaders/WorkingDirectory/19120/).
+[2017.09.14-20.13.03:259][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Topleftstyll/AppData/Local/Temp/UnrealShaderWorkingDir/17945E4942238DB246B06EBEC12F9DEC/'.
+[2017.09.14-20.13.03:259][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.14-20.13.06:619][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.14-20.13.06:661][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.14-20.13.06:705][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.14-20.13.06:745][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.14-20.13.06:795][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.14-20.13.06:835][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.14-20.13.06:874][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.14-20.13.06:915][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.14-20.13.06:959][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.14-20.13.07:019][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.14-20.13.07:058][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.14-20.13.07:097][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.14-20.13.07:136][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.14-20.13.07:175][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.14-20.13.07:212][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.14-20.13.07:304][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.14-20.13.07:304][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.14-20.13.07:332][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.14-20.13.07:473][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.14-20.13.07:497][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.14-20.13.07:538][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.14-20.13.07:577][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.14-20.13.07:616][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.14-20.13.07:670][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.14-20.13.07:670][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.14-20.13.08:870][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.14-20.13.09:363][  0]LogDerivedDataCache: Loaded boot cache 0.49s 90MB C:/Users/Topleftstyll/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.14-20.13.09:363][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Topleftstyll/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.14-20.13.09:363][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/_Projects/Unreal/TD_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.14-20.13.09:363][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.14-20.13.09:363][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/_Projects/Unreal/TD_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.14-20.13.09:363][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.14-20.13.09:436][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.14-20.13.09:448][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Topleftstyll/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.14-20.13.09:458][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.14-20.13.09:494][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.14-20.13.09:576][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.14-20.13.09:576][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.14-20.13.16:939][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.14-20.13.17:422][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.14-20.13.17:835][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.14-20.13.17:995][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.14-20.13.18:059][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.14-20.13.18:059][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.14-20.13.18:059][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.14-20.13.21:470][  0]LogNetVersion: TD_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4232742924)
+[2017.09.14-20.13.21:718][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.09.14-20.13.22:118][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.248929 seconds
+[2017.09.14-20.13.22:136][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.14-20.13.22:136][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.14-20.13.22:136][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.14-20.13.22:198][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.14-20.13.33:837][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.14-20.13.33:890][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.14-20.13.34:863][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.14-20.13.35:433][  0]SourceControl: Info Source control is disabled
+[2017.09.14-20.13.35:503][  0]SourceControl: Info Source control is disabled
+[2017.09.14-20.13.35:578][  0]SourceControl: Info Source control is disabled
+[2017.09.14-20.13.35:624][  0]SourceControl: Info Source control is disabled
+[2017.09.14-20.13.36:522][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.14-20.13.37:291][  0]LogEngine: Initializing Engine...
+[2017.09.14-20.13.37:297][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.14-20.13.37:894][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.14-20.13.37:894][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.14-20.13.38:036][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.14-20.13.38:092][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.13.38:135][  0]LogInit: FAudioDevice initialized.
+[2017.09.14-20.13.38:178][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Topleftstyll/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.14-20.13.38:195][  0]LogInit: Texture streaming: Enabled
+[2017.09.14-20.13.38:298][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.14-20.13.38:662][  0]LogInit: Transaction tracking system initialized
+[2017.09.14-20.13.39:017][  0]BlueprintLog: New page: Editor Load
+[2017.09.14-20.13.40:160][  0]LocalizationService: Info Localization service is disabled
+[2017.09.14-20.13.41:063][  0]LogConsoleResponse:Display: 
+[2017.09.14-20.13.42:806][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/Unreal/TD_Game/Content/' took 0.04s
+[2017.09.14-20.13.42:806][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.14-20.13.42:820][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.14-20.13.44:888][  0]SourceControl: Info Source control is disabled
+[2017.09.14-20.13.44:905][  0]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/Unreal/TD_Game/Content/Maps/StartScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.14-20.13.44:953][  0]LightingResults: New page: Lighting Build
+[2017.09.14-20.13.45:051][  0]MapCheck: New page: Map Check
+[2017.09.14-20.13.45:051][  0]LightingResults: New page: Lighting Build
+[2017.09.14-20.13.45:242][  0]LogAIModule: Creating AISystem for world StartScreen
+[2017.09.14-20.13.45:255][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.14-20.13.45:314][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.14-20.13.45:350][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.001ms to complete.
+[2017.09.14-20.13.45:350][  0]LogFileHelpers: Loading map 'StartScreen' took 0.446
+[2017.09.14-20.13.45:995][  0]LogCollectionManager: Loaded 0 collections in 0.001028 seconds
+[2017.09.14-20.13.46:113][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/Unreal/TD_Game/Saved/Collections/' took 0.01s
+[2017.09.14-20.13.46:113][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/Unreal/TD_Game/Content/Developers/Topleftstyll/Collections/' took 0.01s
+[2017.09.14-20.13.46:113][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/Unreal/TD_Game/Content/Collections/' took 0.01s
+[2017.09.14-20.13.46:113][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.09.14-20.13.46:132][  0]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 2331 classes and 495 folders.
+[2017.09.14-20.13.46:197][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.09.14-20.13.47:436][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.09.14-20.13.47:469][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.14-20.13.47:497][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.14-20.13.47:607][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.09.14-20.13.47:608][  0]LogLoad: (Engine Initialization) Total time: 60.31 seconds
+[2017.09.14-20.13.47:608][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
+[2017.09.14-20.13.47:608][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.14-20.13.47:608][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.14-20.13.47:647][  0]LogOcInput: OculusInput pre-init called
+[2017.09.14-20.13.47:647][  0]LogHMD: Starting GearVRController plugin
+[2017.09.14-20.13.47:685][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.14-20.13.47:730][  0]LogSlate: Took 0.035537 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.14-20.13.47:753][  0]LogSlate: Took 0.021158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.14-20.13.47:770][  0]LogSlate: Took 0.012284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.14-20.13.48:001][  0]LogSlate: Took 0.007737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.14-20.13.48:096][  2]LogRenderer: Reallocating scene render targets to support 860x460 NumSamples 1 (Frame:1).
+[2017.09.14-20.13.48:194][  2]LogAssetRegistry: Asset discovery search completed in 26.4973 seconds
+[2017.09.14-20.13.48:214][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.14-20.13.48:214][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.09.14-20.13.48:653][ 27]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.14-20.14.00:683][714]LogRenderer: Reallocating scene render targets to support 1228x652 NumSamples 1 (Frame:710).
+[2017.09.14-20.14.04:414][928]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.14-20.14.05:268][928]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.14-20.14.08:109][928]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.14.08:237][928]Cmd: MAP LOAD FILE="../../../../GameDev/_Projects/Unreal/TD_Game/Content/Maps/ArenaMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.14-20.14.08:237][928]LightingResults: New page: Lighting Build
+[2017.09.14-20.14.08:238][928]LoadErrors: New page: Loading map: ArenaMap.umap
+[2017.09.14-20.14.08:238][928]MapCheck: New page: Map Check
+[2017.09.14-20.14.08:238][928]LightingResults: New page: Lighting Build
+[2017.09.14-20.14.08:271][928]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.14-20.14.08:322][928]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.14-20.14.08:362][928]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.626ms to complete.
+[2017.09.14-20.14.08:362][928]LogFileHelpers: Loading map 'ArenaMap' took 0.138
+[2017.09.14-20.14.10:341][ 42]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.14.10:462][ 42]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.14.10:462][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.14.10:495][ 42]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:14:10 PM)
+[2017.09.14-20.14.10:496][ 42]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.14.10:505][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009153s)
+[2017.09.14-20.14.10:505][ 42]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.14.10:505][ 42]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2017.09.14-20.14.10:505][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.009999s)
+[2017.09.14-20.14.10:517][ 42]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.14.10:558][ 42]LogInit: FAudioDevice initialized.
+[2017.09.14-20.14.10:612][ 42]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.14.10:615][ 42]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.14.10
+[2017.09.14-20.14.10:669][ 42]LogWorld: Bringing up level for play took: 0.055125
+[2017.09.14-20.14.10:722][ 42]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2017.09.14-20.14.11:024][ 42]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap -0.016
+[2017.09.14-20.14.11:025][ 42]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.14.11:054][ 42]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.09.14-20.14.19:259][517]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.14.19:311][517]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.14.32:278][255]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 112 classes and 0 folders.
+[2017.09.14-20.14.33:549][255]LogSlate: Took 0.011321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.14-20.14.44:849][848]BlueprintLog: New page: Compile TD_HUD
+[2017.09.14-20.14.45:024][848]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.14-20.14.45:516][876]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.14.45:547][876]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.14.45:547][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.14.45:547][876]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:14:45 PM)
+[2017.09.14-20.14.45:547][876]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.14.45:556][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008840s)
+[2017.09.14-20.14.45:556][876]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.14.45:557][876]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2017.09.14-20.14.45:557][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.009604s)
+[2017.09.14-20.14.45:574][876]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.14.45:613][876]LogInit: FAudioDevice initialized.
+[2017.09.14-20.14.45:659][876]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.14.45:661][876]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.14.45
+[2017.09.14-20.14.45:661][876]LogWorld: Bringing up level for play took: 0.001285
+[2017.09.14-20.14.45:668][876]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap 0.628
+[2017.09.14-20.14.45:668][876]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.15.17:063][733]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.15.17:114][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.15.43:161][243]LogSlate: Took 0.015166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.14-20.15.48:050][510]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.15.48:078][510]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.15.48:078][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.15.48:078][510]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:15:48 PM)
+[2017.09.14-20.15.48:078][510]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.15.48:088][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009805s)
+[2017.09.14-20.15.48:089][510]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.15.48:089][510]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2017.09.14-20.15.48:089][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.010659s)
+[2017.09.14-20.15.48:179][510]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.15.48:219][510]LogInit: FAudioDevice initialized.
+[2017.09.14-20.15.48:265][510]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.15.48:267][510]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.15.48
+[2017.09.14-20.15.48:268][510]LogWorld: Bringing up level for play took: 0.002122
+[2017.09.14-20.15.48:275][510]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap -0.765
+[2017.09.14-20.15.48:276][510]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.15.54:325][870]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.15.54:412][870]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.19.11:539][696]BlueprintLog: New page: Compile ArenaMap
+[2017.09.14-20.19.12:081][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ArenaMap" FILE="../../../../GameDev/_Projects/Unreal/TD_Game/Content/Maps/ArenaMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-20.19.12:686][716]LogSavePackage: Save=408.03ms
+[2017.09.14-20.19.12:687][716]LogSavePackage: Moving '../../../../GameDev/_Projects/Unreal/TD_Game/Saved/ArenaMapF5C02FC24CB918493C4FC7B1EBDA7814.tmp' to '../../../../GameDev/_Projects/Unreal/TD_Game/Content/Maps/ArenaMap.umap'
+[2017.09.14-20.19.12:695][716]LogSavePackage:Display: Finished SavePackage ../../../../GameDev/_Projects/Unreal/TD_Game/Content/Maps/ArenaMap.umap
+[2017.09.14-20.19.12:727][716]LogFileHelpers: Saving map 'ArenaMap' took 0.695
+[2017.09.14-20.22.03:637][753]BlueprintLog: New page: Compile HeroCharacter
+[2017.09.14-20.22.04:547][782]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.22.04:568][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.04:568][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.22.04:568][782]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:22:04 PM)
+[2017.09.14-20.22.04:569][782]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.22.04:578][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009705s)
+[2017.09.14-20.22.04:579][782]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.22.04:579][782]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2017.09.14-20.22.04:579][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.010869s)
+[2017.09.14-20.22.04:629][782]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.22.04:673][782]LogInit: FAudioDevice initialized.
+[2017.09.14-20.22.04:722][782]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.22.04:725][782]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.22.04
+[2017.09.14-20.22.04:726][782]LogWorld: Bringing up level for play took: 0.002574
+[2017.09.14-20.22.04:739][782]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap -0.302
+[2017.09.14-20.22.04:739][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.09:339][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.09:442][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.34:912][556]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.22.34:959][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.34:960][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.22.34:960][556]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:22:34 PM)
+[2017.09.14-20.22.34:960][556]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.22.34:969][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009304s)
+[2017.09.14-20.22.34:969][556]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.22.34:970][556]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.09.14-20.22.34:970][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.010150s)
+[2017.09.14-20.22.35:018][556]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.22.35:059][556]LogInit: FAudioDevice initialized.
+[2017.09.14-20.22.35:106][556]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.22.35:109][556]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.22.35
+[2017.09.14-20.22.35:110][556]LogWorld: Bringing up level for play took: 0.002603
+[2017.09.14-20.22.35:121][556]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap 0.08
+[2017.09.14-20.22.35:121][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.39:497][806]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.39:603][806]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.44:784][102]BlueprintLog: New page: Compile HeroCharacter
+[2017.09.14-20.22.45:831][143]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.22.45:851][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.45:851][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.22.45:852][143]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:22:45 PM)
+[2017.09.14-20.22.45:852][143]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.22.45:861][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009648s)
+[2017.09.14-20.22.45:862][143]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.22.45:862][143]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2017.09.14-20.22.45:862][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.010554s)
+[2017.09.14-20.22.45:911][143]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.22.45:965][143]LogInit: FAudioDevice initialized.
+[2017.09.14-20.22.46:017][143]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.22.46:020][143]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.22.46
+[2017.09.14-20.22.46:020][143]LogWorld: Bringing up level for play took: 0.002037
+[2017.09.14-20.22.46:032][143]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap 0.991
+[2017.09.14-20.22.46:032][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.48:970][312]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.22.49:076][312]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.26.45:403][440]Cmd: DUPLICATE
+[2017.09.14-20.26.45:403][440]Cmd: ACTOR DUPLICATE
+[2017.09.14-20.26.46:220][477]Cmd: DUPLICATE
+[2017.09.14-20.26.46:220][477]Cmd: ACTOR DUPLICATE
+[2017.09.14-20.26.48:905][631]LogEditorViewport: Clicking on Actor (LMB): HeroCharacter_C (HeroCharacter)
+[2017.09.14-20.26.51:209][762]LogEditorViewport: Clicking on Actor (LMB): HeroCharacter_C (HeroCharacter3)
+[2017.09.14-20.29.49:065][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ArenaMap" FILE="../../../../GameDev/_Projects/Unreal/TD_Game/Saved/Autosaves/Game/Maps/ArenaMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.14-20.29.49:484][ 59]LogSavePackage: Save=394.10ms
+[2017.09.14-20.29.49:484][ 59]LogSavePackage: Moving '../../../../GameDev/_Projects/Unreal/TD_Game/Saved/ArenaMap_Auto106D85AD14B6645DDC8625BA440B29F1A.tmp' to '../../../../GameDev/_Projects/Unreal/TD_Game/Saved/Autosaves/Game/Maps/ArenaMap_Auto1.umap'
+[2017.09.14-20.29.49:490][ 59]LogSavePackage:Display: Finished SavePackage ../../../../GameDev/_Projects/Unreal/TD_Game/Saved/Autosaves/Game/Maps/ArenaMap_Auto1.umap
+[2017.09.14-20.29.49:492][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaMap' took 0.735
+[2017.09.14-20.29.49:492][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.735
+[2017.09.14-20.29.49:494][ 59]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/HeroCharacter] ([1] browsable assets)...
+[2017.09.14-20.29.49:520][ 59]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/HeroCharacter.HeroCharacter]
+[2017.09.14-20.29.49:520][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HeroCharacter]
+[2017.09.14-20.29.49:520][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../GameDev/_Projects/Unreal/TD_Game/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-20.29.49:628][ 59]LogSavePackage: Save=91.26ms
+[2017.09.14-20.29.49:628][ 59]LogSavePackage: Moving '../../../../GameDev/_Projects/Unreal/TD_Game/Saved/HeroCharacter_Auto108CA609541FF094582F8BD84A54E7247.tmp' to '../../../../GameDev/_Projects/Unreal/TD_Game/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto1.uasset'
+[2017.09.14-20.29.49:640][ 59]LogSavePackage:Display: Finished SavePackage ../../../../GameDev/_Projects/Unreal/TD_Game/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto1.uasset
+[2017.09.14-20.29.49:640][ 59]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/TD_HUD] ([1] browsable assets)...
+[2017.09.14-20.29.49:640][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TD_HUD]
+[2017.09.14-20.29.49:640][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TD_HUD" FILE="../../../../GameDev/_Projects/Unreal/TD_Game/Saved/Autosaves/Game/Blueprints/TD_HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.14-20.29.49:700][ 59]LogSavePackage: Save=46.17ms
+[2017.09.14-20.29.49:700][ 59]LogSavePackage: Moving '../../../../GameDev/_Projects/Unreal/TD_Game/Saved/TD_HUD_Auto1779CE72146796275C02B5B8ED79BB391.tmp' to '../../../../GameDev/_Projects/Unreal/TD_Game/Saved/Autosaves/Game/Blueprints/TD_HUD_Auto1.uasset'
+[2017.09.14-20.29.49:701][ 59]LogSavePackage:Display: Finished SavePackage ../../../../GameDev/_Projects/Unreal/TD_Game/Saved/Autosaves/Game/Blueprints/TD_HUD_Auto1.uasset
+[2017.09.14-20.29.49:701][ 59]LogFileHelpers: Auto-saving content packages took 0.208
+[2017.09.14-20.30.04:095][914]BlueprintLog: New page: Compile ArenaMap
+[2017.09.14-20.30.11:844][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ArenaMap" FILE="../../../../GameDev/_Projects/Unreal/TD_Game/Content/Maps/ArenaMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.14-20.30.12:282][ 42]LogSavePackage: Save=411.86ms
+[2017.09.14-20.30.12:282][ 42]LogSavePackage: Moving '../../../../GameDev/_Projects/Unreal/TD_Game/Saved/ArenaMapF83293CB4516D9F874E444951491A562.tmp' to '../../../../GameDev/_Projects/Unreal/TD_Game/Content/Maps/ArenaMap.umap'
+[2017.09.14-20.30.12:286][ 42]LogSavePackage:Display: Finished SavePackage ../../../../GameDev/_Projects/Unreal/TD_Game/Content/Maps/ArenaMap.umap
+[2017.09.14-20.30.12:317][ 42]LogFileHelpers: Saving map 'ArenaMap' took 0.521
+[2017.09.14-20.30.12:932][ 78]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.30.12:949][ 78]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.30.12:949][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.30.12:950][ 78]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:30:12 PM)
+[2017.09.14-20.30.12:950][ 78]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.30.12:959][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009579s)
+[2017.09.14-20.30.12:960][ 78]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.30.12:960][ 78]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.09.14-20.30.12:960][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.010499s)
+[2017.09.14-20.30.13:060][ 78]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.30.13:102][ 78]LogInit: FAudioDevice initialized.
+[2017.09.14-20.30.13:150][ 78]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.30.13:153][ 78]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.30.13
+[2017.09.14-20.30.13:154][ 78]LogWorld: Bringing up level for play took: 0.003196
+[2017.09.14-20.30.13:167][ 78]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap 0.126
+[2017.09.14-20.30.13:167][ 78]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.30.26:280][842]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.30.26:385][842]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.30.32:836][203]LogEditorViewport: Clicking on Actor (LMB): HeroCharacter_C (HeroCharacter3)
+[2017.09.14-20.30.37:148][363]LogEditorActor: Deleted Actor: HeroCharacter_C
+[2017.09.14-20.30.37:167][363]LogEditorActor: Deleted 1 Actors (1.452 secs)
+[2017.09.14-20.30.37:882][406]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.30.37:899][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.30.37:899][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.30.37:899][406]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:30:37 PM)
+[2017.09.14-20.30.37:899][406]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.30.37:909][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009896s)
+[2017.09.14-20.30.37:909][406]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.30.37:909][406]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2017.09.14-20.30.37:909][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.010639s)
+[2017.09.14-20.30.37:926][406]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.30.37:963][406]LogInit: FAudioDevice initialized.
+[2017.09.14-20.30.38:010][406]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.30.38:013][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.30.38
+[2017.09.14-20.30.38:014][406]LogWorld: Bringing up level for play took: 0.002618
+[2017.09.14-20.30.38:025][406]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap 0.985
+[2017.09.14-20.30.38:026][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.30.49:439][ 71]LogNet: Browse: /Game/Maps/ArenaMap
+[2017.09.14-20.30.49:445][ 71]LogLoad: LoadMap: /Game/Maps/ArenaMap
+[2017.09.14-20.30.49:483][ 71]Cmd: MEM
+[2017.09.14-20.30.49:500][ 71]LogMemory: Platform Memory Stats for Windows
+[2017.09.14-20.30.49:500][ 71]LogMemory: Process Physical Memory: 1883.50 MB used, 1922.50 MB peak
+[2017.09.14-20.30.49:500][ 71]LogMemory: Process Virtual Memory: 2966.41 MB used, 3132.56 MB peak
+[2017.09.14-20.30.49:500][ 71]LogMemory: Physical Memory: 9777.08 MB used,  6469.87 MB free, 16246.95 MB total
+[2017.09.14-20.30.49:500][ 71]LogMemory: Virtual Memory: 3869.56 MB used,  6469.87 MB free, 134217728.00 MB total
+[2017.09.14-20.30.49:500][ 71]LogMemory: 
+[2017.09.14-20.30.49:500][ 71]Allocator Stats for TBB: (not implemented)
+[2017.09.14-20.30.49:509][ 71]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.30.49:518][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009379s)
+[2017.09.14-20.30.49:519][ 71]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.30.49:519][ 71]LogPlayLevel: PIE: World Init took: (0.000518s)
+[2017.09.14-20.30.49:519][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.010172s)
+[2017.09.14-20.30.49:519][ 71]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.30.49:522][ 71]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.30.49
+[2017.09.14-20.30.49:523][ 71]LogWorld: Bringing up level for play took: 0.002559
+[2017.09.14-20.30.49:538][ 71]LogLoad: Took 0.093220 seconds to LoadMap(/Game/Maps/UEDPIE_0_ArenaMap)
+[2017.09.14-20.31.27:111][211]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.31.27:225][211]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.31.27:866][246]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.31.27:884][246]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.31.27:884][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.31.27:884][246]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:31:27 PM)
+[2017.09.14-20.31.27:884][246]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.31.27:894][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009860s)
+[2017.09.14-20.31.27:894][246]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.31.27:894][246]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2017.09.14-20.31.27:895][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.010711s)
+[2017.09.14-20.31.27:942][246]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.31.27:982][246]LogInit: FAudioDevice initialized.
+[2017.09.14-20.31.28:026][246]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.31.28:028][246]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.31.28
+[2017.09.14-20.31.28:029][246]LogWorld: Bringing up level for play took: 0.002631
+[2017.09.14-20.31.28:036][246]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap 0.996
+[2017.09.14-20.31.28:037][246]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.31.37:563][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.31.37:647][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.31.44:786][224]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.31.44:805][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.31.44:805][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.31.44:805][224]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:31:44 PM)
+[2017.09.14-20.31.44:805][224]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.31.44:814][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009315s)
+[2017.09.14-20.31.44:815][224]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.31.44:815][224]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2017.09.14-20.31.44:815][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.010231s)
+[2017.09.14-20.31.44:866][224]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.31.44:911][224]LogInit: FAudioDevice initialized.
+[2017.09.14-20.31.44:953][224]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.31.44:957][224]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.31.44
+[2017.09.14-20.31.44:959][224]LogWorld: Bringing up level for play took: 0.005061
+[2017.09.14-20.31.44:967][224]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap -0.074
+[2017.09.14-20.31.44:967][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.31.51:077][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.31.51:160][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.32.07:342][356]BlueprintLog: New page: Compile ArenaMap
+[2017.09.14-20.32.08:092][392]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.32.08:111][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.32.08:112][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.32.08:112][392]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:32:08 PM)
+[2017.09.14-20.32.08:112][392]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.32.08:121][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009425s)
+[2017.09.14-20.32.08:122][392]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.32.08:122][392]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2017.09.14-20.32.08:122][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.010823s)
+[2017.09.14-20.32.08:172][392]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.32.08:208][392]LogInit: FAudioDevice initialized.
+[2017.09.14-20.32.08:257][392]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.32.08:261][392]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.32.08
+[2017.09.14-20.32.08:262][392]LogWorld: Bringing up level for play took: 0.003358
+[2017.09.14-20.32.08:276][392]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap -0.765
+[2017.09.14-20.32.08:277][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.32.11:884][605]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.32.11:981][605]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.32.17:479][906]LogEditorActor: Deleted Actor: HeroCharacter_C
+[2017.09.14-20.32.17:495][906]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.09.14-20.32.18:519][968]LogEditorViewport: Clicking on Actor (LMB): HeroCharacter_C (HeroCharacter2)
+[2017.09.14-20.32.25:841][398]LogEditorViewport: Clicking on Actor (LMB): HeroCharacter_C (HeroCharacter3)
+[2017.09.14-20.32.28:175][529]LogEditorViewport: Clicking on Actor (LMB): HeroCharacter_C (HeroCharacter2)
+[2017.09.14-20.32.29:875][625]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.09.14-20.32.29:893][625]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.32.29:893][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.14-20.32.29:893][625]PIE: New page: PIE session: ArenaMap (Sep 14, 2017, 12:32:29 PM)
+[2017.09.14-20.32.29:893][625]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ArenaMap
+[2017.09.14-20.32.29:902][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009097s)
+[2017.09.14-20.32.29:902][625]LogAIModule: Creating AISystem for world ArenaMap
+[2017.09.14-20.32.29:902][625]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2017.09.14-20.32.29:903][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap (0.009887s)
+[2017.09.14-20.32.29:948][625]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.09.14-20.32.29:990][625]LogInit: FAudioDevice initialized.
+[2017.09.14-20.32.30:042][625]LogLoad: Game class is 'TD_Mode_C'
+[2017.09.14-20.32.30:046][625]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ArenaMap.ArenaMap up for play (max tick rate 60) at 2017.09.14-16.32.30
+[2017.09.14-20.32.30:047][625]LogWorld: Bringing up level for play took: 0.003266
+[2017.09.14-20.32.30:060][625]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ArenaMap 1.019
+[2017.09.14-20.32.30:060][625]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.32.40:412][226]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.32.40:514][226]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap' with GeneratedClass '/Game/Maps/ArenaMap.ArenaMap_C' with ClassGeneratedBy '/Game/Maps/ArenaMap.ArenaMap:PersistentLevel.ArenaMap'
+[2017.09.14-20.33.36:169][474]LogUObjectBase:Warning: Object is not registered
+[2017.09.14-20.33.36:722][474]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.544 s
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: === Handled ensure: ===
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: 
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: Stack: 
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007676E256
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007651B862
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000076531E26
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000040657556
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000003EFDD27B
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000003E3624AA
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000003E2072CC
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000003E20A6D9
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000003E328035
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004160DB57
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000041614B61
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000418348D3
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004166F604
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000416477FC
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004163814C
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000076761550
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007674B771
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000007676337B
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000076747AC2
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: USER32.dll!0x0000000089291C24
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: USER32.dll!0x000000008929156C
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000076763C86
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor.exe!0x000000007AF1DB44
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor.exe!0x000000007AF0F0B0
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor.exe!0x000000007AF0F12A
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor.exe!0x000000007AF20CF9
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: UE4Editor.exe!0x000000007AF225F7
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: KERNEL32.DLL!0x0000000089408364
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: ntdll.dll!0x000000008B8C7091
+[2017.09.14-20.33.36:722][474]LogOutputDevice:Error: 
+[2017.09.14-20.33.36:726][474]LogStats:                SubmitErrorReport -  0.000 s

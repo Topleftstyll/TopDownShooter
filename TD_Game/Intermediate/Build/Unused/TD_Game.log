@@ -1,0 +1,13 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for TD_GameEditor
+    Running UnrealHeaderTool "D:\GameDev\_Projects\Unreal\TD_Game\TD_Game.uproject" "D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\TD_GameEditor\Development\TD_GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for TD_GameEditor in 12.884214 seconds
+  Performing 4 actions (4 in parallel)
+  TD_Game.generated.cpp
+  BaseCharacter.cpp
+  [3/4] Link UE4Editor-TD_Game-6387.dll
+  [4/4] Link UE4Editor-TD_Game-6387.lib
+     Creating library D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TD_Game-6387.lib and object D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TD_Game-6387.exp
+     Creating library D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TD_Game-6387.suppressed.lib and object D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TD_Game-6387.suppressed.exp
+  Deploying TD_GameEditor Win64 Development...
+  Total build time: 113.42 seconds (Local executor: 91.07 seconds)

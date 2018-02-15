@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TD_Game.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A22B6161-5006-48BF-8408-263D5C3F069A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TD_Game.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TD_GameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{69AFD4F2-C32D-4A46-B671-7784C2DEBF5D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TD_Game">
+			<UniqueIdentifier>{B84DF380-E0FA-4B3F-9968-0ACD6DD8F131}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TD_Game\BaseChar.cpp">
+			<Filter>Source\TD_Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TD_Game\BaseChar.h">
+			<Filter>Source\TD_Game</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TD_Game\BaseCharacter.cpp">
+			<Filter>Source\TD_Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TD_Game\BaseCharacter.h">
+			<Filter>Source\TD_Game</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TD_Game\MyCharacter.cpp">
+			<Filter>Source\TD_Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TD_Game\MyCharacter.h">
+			<Filter>Source\TD_Game</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TD_Game\MyCharacter1.cpp">
+			<Filter>Source\TD_Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TD_Game\MyCharacter1.h">
+			<Filter>Source\TD_Game</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\TD_Game\TD_Game.Build.cs">
+			<Filter>Source\TD_Game</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TD_Game\TD_Game.cpp">
+			<Filter>Source\TD_Game</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TD_Game\TD_Game.h">
+			<Filter>Source\TD_Game</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

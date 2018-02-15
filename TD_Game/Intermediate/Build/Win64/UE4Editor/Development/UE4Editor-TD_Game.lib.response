@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TD_Game.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\UE4Editor\Development\TD_Game\BaseCharacter.cpp.obj"
+"D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\UE4Editor\Development\TD_Game\MyCharacter.cpp.obj"
+"D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\UE4Editor\Development\TD_Game\MyCharacter1.cpp.obj"
+"D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\UE4Editor\Development\TD_Game\TD_Game.cpp.obj"
+"D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\UE4Editor\Development\TD_Game\TD_Game.generated.cpp.obj"
+"D:\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\TD_Game\PCLaunch.rc.res"
+"D:\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\GameDev\_Projects\Unreal\TD_Game\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TD_Game.lib"
